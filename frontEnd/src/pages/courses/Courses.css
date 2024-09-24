@@ -1,0 +1,56 @@
+.filterWrapper,
+.stateWrapper {
+  box-shadow: rgb(120 119 119 / 24%) 0px 3px 8px;
+  border-radius: 5px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: #fff;
+}
+.filterIcon,
+.stateIcon {
+  padding-bottom: 16px;
+}
+.filterIcon b,
+.stateIcon b {
+  padding-right: 10px;
+}
+
+.searchButton,
+.dropdown-toggle {
+  all: unset;
+  border: 0 !important;
+  background: rgb(204, 128, 158);
+  background: radial-gradient(
+    circle,
+    rgba(204, 128, 158, 0.908000700280112) 0%,
+    rgba(57, 48, 48, 1) 100%
+  );
+  height: 35px !important;
+  border-radius: 10px 0 0 10px !important;
+}
+.searchButton,
+.dropdown-toggle:hover {
+  background: rgb(57, 48, 48);
+  background: radial-gradient(
+    circle,
+    rgba(57, 48, 48, 1) 0%,
+    rgba(204, 128, 158, 0.908000700280112) 100%
+  );
+}
+.searchInputContainer{
+    background-color:pink;
+    border-radius:10px ;
+   
+}
+.dropdown-menu{
+    margin-right: 135px !important;
+  
+
+}
+.dropdown-item{
+    background-color: #eee;
+    transition:background-color 0.3s;
+}
+.dropdown-item:hover{
+    background-color: rgb(217, 154, 164);
+}

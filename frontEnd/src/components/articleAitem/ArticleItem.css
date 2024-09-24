@@ -1,0 +1,32 @@
+.card{
+    box-shadow: -3px 7px 25px 4px rgba(78,49,49,0.3);
+    transition: all .3s;
+}
+.card:hover{
+    scale: 1.02;
+}
+.card-body{
+    border-bottom: none !important;
+}
+.card-body span a{ 
+color: black;
+text-decoration: none;
+margin-left: 5px;
+}
+.card-text{
+    color: rgb(87, 74, 74);
+    text-align: justify;
+    font-size: 16px;
+}
+.card-footer{
+    background-color: rgb(220, 213, 213);
+    display: flex;
+    justify-content: space-between;
+    border-top: none !important;
+
+    
+}
+.card-footer span {
+    color: gray;
+    font-size: 15px;
+}

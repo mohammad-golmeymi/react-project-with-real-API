@@ -1,0 +1,7 @@
+.active{
+    border-bottom: 1px groove black !important;
+    transform: translateY(-1px);
+}
+.nav-link{
+font-size: 18px !important;
+}
